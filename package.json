@@ -4,8 +4,8 @@
   "description": "Lectors and Commentators Ministry System",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
+  "start": "node src/server.js"
+}
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "better-sqlite3": "^12.2.0",
