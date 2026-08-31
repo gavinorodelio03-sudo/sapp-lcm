@@ -1,6 +1,6 @@
 FROM node:20-slim
 
-# Install system dependencies required to build better-sqlite3
+# Install system dependencies required for native modules like better-sqlite3
 RUN apt-get update && apt-get install -y \
     python3 \
     make \
