@@ -1,16 +1,10 @@
 {
   "name": "lcm-omes",
   "version": "1.0.0",
-  "description": "Lectors and Commentators Ministry Online Management and Evaluation System",
+  "description": "Lectors and Commentators Ministry System",
   "main": "server.js",
   "scripts": {
-    "start": "node app.js",
-    "seed": "node seed.js",
-    "backup": "node backup.js",
-    "reset-db": "node seed.js --fresh"
-  },
-  "engines": {
-    "node": ">=20"
+    "start": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -23,5 +17,8 @@
     "multer": "^1.4.5-lts.2",
     "pdfkit": "^0.16.0",
     "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
