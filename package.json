@@ -2,10 +2,10 @@
   "name": "lcm-omes",
   "version": "1.0.0",
   "description": "Lectors and Commentators Ministry System",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-  "start": "node src/server.js"
-}
+    "start": "node src/server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "better-sqlite3": "^12.2.0",
@@ -22,4 +22,3 @@
     "node": ">=20"
   }
 }
- 
