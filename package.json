@@ -4,7 +4,7 @@
   "description": "Lectors and Commentators Ministry Online Management and Evaluation System",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "seed": "node seed.js",
     "backup": "node backup.js",
     "reset-db": "node seed.js --fresh"
